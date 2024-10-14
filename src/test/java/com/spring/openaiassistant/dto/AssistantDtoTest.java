@@ -13,6 +13,7 @@ class AssistantDtoTest {
 
     @Test
     public void test() {
+        // example code from openai docs
         String exampleAssistantObject = "{\n" +
                 "  \"id\": \"asst_abc123\",\n" +
                 "  \"object\": \"assistant\",\n" +
