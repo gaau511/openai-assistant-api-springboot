@@ -61,7 +61,7 @@ public class RunStepsDto {
     private Integer completedAt;
 
     @JsonProperty("metadata")
-    private Map<String, Object> metadata;
+    private Map<String, String> metadata;
 
     @JsonProperty("usage")
     private Usage usage;

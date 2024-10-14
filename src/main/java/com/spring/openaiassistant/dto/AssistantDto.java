@@ -43,7 +43,7 @@ public class AssistantDto {
     private ToolResources toolResources;
 
     @JsonProperty("metadata")
-    private Map<String, Object> metadata;
+    private Map<String, String> metadata;
 
     @JsonProperty("temperature")
     private Double temperature;

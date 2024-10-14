@@ -28,7 +28,7 @@ public class ThreadDto {
     private AssistantDto.ToolResources toolResources;
 
     @JsonProperty("metadata")
-    private Map<String, Object> metadata;
+    private Map<String, String> metadata;
 
     @Data
     @Builder

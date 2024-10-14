@@ -56,7 +56,7 @@ public class MessageDto {
     private List<Attachment> attachments;
 
     @JsonProperty("metadata")
-    private Map<String, Object> metadata;
+    private Map<String, String> metadata;
 
     @Data
     @NoArgsConstructor
